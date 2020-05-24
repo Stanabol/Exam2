@@ -1,0 +1,31 @@
+.field {
+    text-align: center;
+}
+.class {
+    text-align: center;
+}
+
+.btn {
+    margin-left: 10px;
+}
+p {
+    margin: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.field {
+    display: flex;
+    /* width: 90%; */
+    justify-content: space-between;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+}
