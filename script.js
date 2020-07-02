@@ -6,7 +6,7 @@ function SearchPrint() {
     console.log(search);
     let year = document.getElementById("year").value;
     // let rating = document.getElementById("rating").value;
-    xhr.open('GET', `http://www.omdbapi.com/?s=${search}&y=${year}&apikey=bab07359`);
+    xhr.open('GET', `https://www.omdbapi.com/?s=${search}&y=${year}&apikey=bab07359`);
     xhr.send();
     xhr.onload = function () {
         if (xhr.status != 200) { // анализируем HTTP-статус ответа, если статус не 200, то произошла ошибка
